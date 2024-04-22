@@ -7,15 +7,6 @@ def colorcheck(sc,x):
     return False
 
 
-         
-
-
-
-
-
-
-
-
 x=(('Red', 'White', 'Blue'), ('Green', 'Pink', 'Purple'), ('Orange', 'Yellow', 'Lime'))
 print(x)
 sc=input("Enter color to be searched:")

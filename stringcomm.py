@@ -21,4 +21,3 @@ print(x.swapcase())
 
 #slicing
 print(x[2:4])
-
