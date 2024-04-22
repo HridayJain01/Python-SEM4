@@ -1,0 +1,16 @@
+def suminList(tuple):
+    sum=0
+    result=[]
+    for t in tuple:
+        sum=0
+        for i in t:
+            
+            sum=sum+i
+        result.append(sum)
+    return result
+
+x=[(1, 2), (2, 3), (3, 4)]
+x2=[(1, 2, 6), (2, 3, -6), (3, 4), (2, 2, 2, 2)]
+print(x)
+print(f"Sum of tuples is ", suminList(x))
+print(f"Sum of tuples is ", suminList(x2))
