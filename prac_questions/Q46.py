@@ -9,7 +9,7 @@ unsorted_dict = {
 }
 
 sorted_keys = sorted(unsorted_dict.keys())
-
+print(sorted_keys)
 sorted_dict = {key: unsorted_dict[key] for key in sorted_keys}
 
 print("Unsorted dictionary:", unsorted_dict)

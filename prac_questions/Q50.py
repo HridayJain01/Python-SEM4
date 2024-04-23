@@ -10,3 +10,11 @@ print("Is the dictionary empty?", is_dict_empty(empty_dict))
 
 non_empty_dict = {"key": "value"}
 print("Is the dictionary empty?", is_dict_empty(non_empty_dict))
+
+
+#try square
+dict={}
+for i in range(1,16):
+    dict[i]=i*i
+
+print(dict)

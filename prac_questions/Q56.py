@@ -2,7 +2,7 @@
 
 def multiplier_factory(factor):
     def multiplier(x):
-        return x*factor;
+        return x*factor
     return multiplier
 
 factor_3 = multiplier_factory(3)
