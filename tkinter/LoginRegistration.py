@@ -20,19 +20,19 @@ entry_02 = Entry(base)
 entry_02.place(x=240,y=180)  
   
 labl_3 = Label(base, text="Gender",width=20,font=("bold", 10))  
-labl_3.place(x=70,y=230)  
-varblbl=IntVarblbl()  
-Radiobutton(base, text="Male",padx = 5, varblbliable=varblbl, value=1).place(x=235,y=230)  
-Radiobutton(base, text="Female",padx = 20, varblbliable=varblbl, value=2).place(x=290,y=230)  
+labl_3.place(x=70,y=230)   
   
 labl_4 = Label(base, text="Age:",width=20,font=("bold", 10))  
-labl_4.place(x=70,y=280)  
-  
-  
+labl_4.place(x=70,y=280)
+
+gender_var = StringVar()
+Radiobutton(base, text="Male", variable=gender_var, value="Male").place(x=240, y=230)
+Radiobutton(base, text="Female", variable=gender_var, value="Female").place(x=300, y=230)
+
 entry_02 = Entry(base)  
 entry_02.place(x=240,y=280)  
   
-Button(base, text='Submit',width=20,bg='brown',fg='white').place(x=180,y=380)  
+Button(base, text='Submit',width=20,bg='brown').place(x=180,y=380)  
 # it will be used for displaying the registration form onto the window  
 base.mainloop()  
 print("Registration form is created seccussfully...") 
