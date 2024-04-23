@@ -1,3 +1,4 @@
+import tkinter as tk
 count=0
 l = [0, 2, 3, 4, 1, 2, 3, 5, 6]
 for i in l:
@@ -7,3 +8,5 @@ for i in l:
     if(count>1):
         print(i)
         break
+
+print(help(tk))

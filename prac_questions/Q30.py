@@ -11,6 +11,5 @@ def max_subsequence_sum(lst):
 
     return current_sum
 
-# Test the function
 my_list = [1, -2, 3, -4, 5, -6, 7]
 print("Maximum sum sub-sequence in the list:", max_subsequence_sum(my_list))

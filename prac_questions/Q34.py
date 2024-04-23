@@ -1,4 +1,4 @@
-import pandas as pd
+import pandas as pd # type: ignore
 
 # 60) Create and display DataFrame from dictionary with index labels
 data = {'name': ['Alice', 'Bob', 'Charlie'],
